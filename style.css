@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-weight: normal;
+}
+
+.signup-text{
+	color: rgb(106, 90, 205);
+}
+
+.tiidelab-text{
+	color: rgb(193, 49, 71);
+}
+
+.homepic{
+	background-image: url("reg-image.jpg");
+	background-position: cover;
+	height : 200px;
+}
+
+
+.regform{
+	padding: 10px;
+}
+
+.form-element{
+	padding : 10px;
+}
+
+.form-element input{
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+}
+
+.form-element input:focus{
+	border-bottom: 2px solid rgb(106, 90, 205);
+}
+
+.form-element label{
+	 font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	 font-weight: bold;
+}
+
+.form-element button{
+	width: 150px;
+	height: 30px;
+	border:1px solid transparent;
+	border-radius: 8px;
+	margin: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color :#fff;
+	background: rgb(255,0,0);
+	background: linear-gradient(180deg, rgba(255,0,0,1) 9%, rgba(33,142,218,0.5718662464985995) 84%);
+}
+
+.form-element button:hover{
+	cursor: pointer;
+	color: #000;
+	background: rgb(33,142,218);
+background: linear-gradient(180deg, rgba(33,142,218,0.5718662464985995) 12%, rgba(255,0,0,1) 85%, rgba(187,44,67,1) 100%);
+}
+
+@media (min-width: 992px) { 
+
+
+.container {
+	width: 100%;
+	clear: both;
+}
+
+.homepic{
+	width: 55%;
+	float: left;
+	height: 700px;
+}
+
+.regform {
+	width: 40%;
+	float: right;
+}
+
+
+}
